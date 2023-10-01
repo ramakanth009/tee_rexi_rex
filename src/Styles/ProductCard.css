@@ -1,0 +1,60 @@
+.productCard-image {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: fill;
+}
+.product-card:hover{
+  transform: scale(1.1) translateY(-1px);;
+}
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+.overflow-container {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+.message {
+  color: green;
+  background-color: rgb(163, 238, 194);
+  text-align: center;
+  font-size: smaller;
+  font-weight: 800;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-fullWidth.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-fullWidth.css-10vjzfb-MuiButtonBase-root-MuiButton-root{
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  
+} 
+
+.add-to-cart {
+  padding: 1rem 0rem;
+
+  --width: 150px;
+  --timing: 2s;
+  border: 1rem;
+  padding-block: 0.1em;
+  transition: all 0.2s;
+  border-radius: 300px;
+  background: #FF9F00;
+}
+
+.add-to-cart:hover {
+  background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(250, 82, 82) 16.65%, rgb(190, 75, 219) 16.65%, rgb(190, 75, 219) 33.3%, rgb(76, 110, 245) 33.3%, rgb(76, 110, 245) 49.95%, rgb(64, 192, 87) 49.95%, rgb(64, 192, 87) 66.6%, rgb(250, 176, 5) 66.6%, rgb(250, 176, 5) 83.25%, rgb(253, 126, 20) 83.25%, rgb(253, 126, 20) 100%, rgb(250, 82, 82) 100%);
+  animation: var(--timing) linear dance6123 infinite;
+  transform: scale(0.9) translateY(-1px);
+}
+
+@keyframes dance6123 {
+  to {
+    background-position: var(--width);
+  }
+}
+
